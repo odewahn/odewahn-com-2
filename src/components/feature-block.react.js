@@ -6,7 +6,7 @@ module.exports = React.createClass({
     var featureItems = this.props.data.map(function(item){
       console.log(item);
       return (
-        <div className="col-md-2">
+        <div className="col-md-12">
           <div className="box">
             <FeatureItem data={item}/>
           </div>
@@ -15,7 +15,7 @@ module.exports = React.createClass({
     });
     return (
       <div>
-        <h3>{this.props.title}</h3>
+        <h2>{this.props.title}</h2>
         <div className="container-fluid">
           <div className="row">
             {featureItems}

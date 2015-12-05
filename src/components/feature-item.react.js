@@ -10,14 +10,16 @@ const CardMedia = require('material-ui/lib/card/card-media');
 
 module.exports = React.createClass({
   render: function() {
+    /*
+    function getImage(s) {
+      return s || ;
+    }
+    */
     return (
       <Card>
-        <CardMedia overlay={<CardTitle title={this.props.data.title} subtitle="Subtitle"/>}>
-          <img src="http://lorempixel.com/600/337/nature/"/>
+        <CardMedia overlay={<CardTitle title={this.props.data.title} subtitle={this.props.data.description} />}>
+          <img src={this.props.data.image || "http://lorempixel.com/600/337/nature/" }/>
         </CardMedia>
-        <CardText>
-          {this.props.data.description}
-        </CardText>
       </Card>
     );
   }

@@ -3,60 +3,37 @@ module.exports = [
     title: "Docker Jumpstart",
     link: "http://odewahn.github.io/docker-jumpstart/",
     description: "A quick into to Docker. (2,600+ GitHub Stars)",
-    image: ""
+    image: "images/docker-jumpstart.png"
   },
   {
     title: "Distributed Development Stack Field Guide",
     link: "http://sites.oreilly.com/odewahn/dds-field-guide/",
     description: "A map of the DevOps space.",
-    image:""
+    image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/cat-piano-05acdd321a202e2b357aed4ffaf83e5e.jpg"
   },
   {
     title: "Patterns of Code as Media",
     link: "https://github.com/odewahn/code-as-media",
     description: "A look at the various ways people create interactive experiences using code.",
-    image:""
+    image:"http://odewahn.github.io/patterns-of-code-as-media/www/images/user_framework.png"
   },
   {
     title: "Oracle Web Applications",
     link: "http://www.amazon.com/Oracle-Web-Applications-Developers-Introduction/dp/1565926870/",
     description: "A long, long time ago, I used to write about PL/SQL.",
-    image:""
+    image:"images/owa-cover.png"
   },
   {
     title: "Beautiful Visualization",
     link: "http://www.amazon.com/Beautiful-Visualization-Looking-through-Practice/dp/1449379869",
     description: "Chapter on mapping the senate social graph.",
-    image:""
+    image:"images/beautiful-viz-cover.png"
   },
   {
     title: "Embracing Jupyter Notebooks at O'Reilly",
     link: "https://beta.oreilly.com/ideas/jupyter-at-oreilly",
     description: "An overview of how we're using Jupyter and Docker to rethink media.",
-    image:""
-  },
-  {
-    title: "Jupyter and Docker for Astronomy",
-    location: "Harvard-Smithsonian Center for Astrophysics",
-    date: "July 13, 2015",
-    link: "",
-    description: "Intro to Jupyter and Docker for the CfA.",
-    image:""
-  },
-  {
-    title: "On Demand Analytic and Learning Environments with IPython/Jupyter",
-    location: "Boston, MA",
-    date: "May 31, 2015",
-    link: "http://lambdaops.com/jupyter-environments-odsc2015/",
-    description: "Jupyter as a rich environments for computation-based narrative.",
-    image:""
-  },
-  {
-    title: "Repeatable Workflows with Docker and IPython Notebooks",
-    date: "February 7, 2015",
-    link: "http://odewahn.github.io/repeatable-workflows-docker-ipython/",
-    description: "Jupyter as a rich environments for computation-based narrative.",
-    image:""
+    image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/13247890444_a42166e6e8_o-10e9387fa019a3012ba63822e89a5b17.jpg"
   },
   {
     title: "Docker at O'Reilly",

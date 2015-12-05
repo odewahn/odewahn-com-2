@@ -1,48 +1,34 @@
 module.exports = [
   {
-    title: "Rackspace Cloud Office Hours (interview)",
-    location: "Online",
-    date: "Nov 19, 2015",
-    link: "https://www.youtube.com/watch?v=ApJTUkLTr74",
-    description: "An interview about Carina with @AlanBush and @DrewCoxSA.",
-    image:""
-  },
-  {
-    title: "Carina Launch",
-    location: "Tokyo, Japan",
-    date: "October 28, 2015",
+    title: "OpenStack Tokyo",
     link: "https://getcarina.com/blog/oreilly-carina/",
     description: "Video used for Carina launch at OpenStack Summit in Tokyo, Japan.",
-    image:""
+    image:"images/openstack-tokyo.jpg"
   },
   {
-    title: "Jupyter and Docker for Astronomy",
-    location: "Harvard-Smithsonian Center for Astrophysics",
+    title: "Harvard Center for Astrophysics",
     date: "July 13, 2015",
     link: "",
     description: "Intro to Jupyter and Docker for the CfA.",
-    image:""
+    image:"images/cfa-sunspot.jpg"
   },
   {
-    title: "On Demand Analytic and Learning Environments with IPython/Jupyter",
-    location: "Boston, MA",
-    date: "May 31, 2015",
+    title: "Open Data Science Conference Boston, MA",
     link: "http://lambdaops.com/jupyter-environments-odsc2015/",
-    description: "Jupyter as a rich environments for computation-based narrative.",
-    image:""
+    description: "On Demand Analytic and Learning Environments with IPython/Jupyter.",
+    image:"images/odsc-boston.jpg"
   },
   {
-    title: "Repeatable Workflows with Docker and IPython Notebooks",
-    date: "February 7, 2015",
-    link: "http://odewahn.github.io/repeatable-workflows-docker-ipython/",
-    description: "Jupyter as a rich environments for computation-based narrative.",
-    image:""
+    title: "Rackspace Cloud Office Hours (interview)",
+    location: "Online",
+    link: "https://www.youtube.com/watch?v=ApJTUkLTr74",
+    description: "An interview about Carina with @AlanBush and @DrewCoxSA.",
+    image:"images/rackspace-interview.png"
   },
   {
-    title: "Docker at O'Reilly",
-    date: "July 30, 2014",
-    link: "http://sites.oreilly.com/odewahn/docker-at-oreilly/ch01.html",
-    description: "Exloration of how Docker can be used for coding education.",
-    image:""
+    title: "Boston Docker Meetup",
+    link: "http://odewahn.github.io/introduction-to-carina/#/",
+    description: "Getting started with Rackspace Carina.",
+    image:"images/boston-docker.jpg"
   }
 ]
