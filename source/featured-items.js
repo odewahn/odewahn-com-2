@@ -2,19 +2,49 @@ module.exports = [
   {
     title: "OpenStack Tokyo",
     link: "https://getcarina.com/blog/oreilly-carina/",
-    description: "Video used for Carina launch at OpenStack Summit in Tokyo, Japan.",
+    description: "Our work with Docker containers in code education was featured at the OpenStack Tokyo.",
     image:"images/openstack-tokyo.jpg"
   },
   {
     title: "Harvard Center for Astrophysics",
     link: "http://odewahn.github.io/jupyter-orm-cfa/",
-    description: "Intro to Jupyter and Docker for the CfA.",
+    description: "A talk I gave to the Harvard-Smithosonian Center for Astrophysics about Jupyter and Docker for radio astronomy.",
     image:"images/cfa-sunspot.jpg"
+  },
+  {
+    title: "O'Reilly Atlas",
+    link: "https://atlas.oreilly.com/",
+    description: "I'm the founder of O'Reilly Media's next generation publishing platform.",
+    image:"images/oreilly-atlas.jpg"
+  },
+  {
+    title: "Docker Jumpstart",
+    link: "http://odewahn.github.io/docker-jumpstart/",
+    description: "A quick into to Docker. (2,600+ GitHub Stars).  It also got to #1 on Hackernews, which makes me absurdly pleased!",
+    image: "images/docker-jumpstart.png"
+  },
+  {
+    title: "Introduction to Carina",
+    link: "http://odewahn.github.io/introduction-to-carina/#/",
+    description: "Getting started with Rackspace Carina, delivered to the Boston Docker Meetup on Nov 3, 2015.",
+    image:"images/boston-docker.jpg"
+  },
+  {
+    title: "Embracing Jupyter Notebooks at O'Reilly",
+    link: "https://beta.oreilly.com/ideas/jupyter-at-oreilly",
+    description: "An overview of how we're using Jupyter and Docker to rethink media.",
+    image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/13247890444_a42166e6e8_o-10e9387fa019a3012ba63822e89a5b17.jpg"
+  },
+  {
+    title: "Distributed Development Stack Field Guide",
+    link: "http://sites.oreilly.com/odewahn/dds-field-guide/",
+    description: "My notes about the DevOps space became this collaboratively edited guide.",
+    image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/cat-piano-05acdd321a202e2b357aed4ffaf83e5e.jpg"
   },
   {
     title: "Open Data Science Conference Boston, MA",
     link: "http://lambdaops.com/jupyter-environments-odsc2015/",
-    description: "On Demand Analytic and Learning Environments with IPython/Jupyter.",
+    description: "Kyle Kelley and I gave this presentation at ODSC Boston on Learning Environments with IPython/Jupyter.",
     image:"images/odsc-boston.jpg"
   },
   {
@@ -24,26 +54,8 @@ module.exports = [
     image:"images/rackspace-interview.png"
   },
   {
-    title: "Introduction to Carina",
-    link: "http://odewahn.github.io/introduction-to-carina/#/",
-    description: "Getting started with Rackspace Carina, deliverd to the Boston Docker Meetup on Nov 3, 2015.",
-    image:"images/boston-docker.jpg"
-  },
-  {
-    title: "Docker Jumpstart",
-    link: "http://odewahn.github.io/docker-jumpstart/",
-    description: "A quick into to Docker. (2,600+ GitHub Stars)",
-    image: "images/docker-jumpstart.png"
-  },
-  {
-    title: "Distributed Development Stack Field Guide",
-    link: "http://sites.oreilly.com/odewahn/dds-field-guide/",
-    description: "A map of the DevOps space.",
-    image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/cat-piano-05acdd321a202e2b357aed4ffaf83e5e.jpg"
-  },
-  {
     title: "Patterns of Code as Media",
-    link: "https://github.com/odewahn/code-as-media",
+    link: "http://odewahn.github.io/patterns-of-code-as-media/www/index.html",
     description: "A look at the various ways people create interactive experiences using code.",
     image:"http://odewahn.github.io/patterns-of-code-as-media/www/images/user_framework.png"
   },
@@ -57,18 +69,6 @@ module.exports = [
     title: "Beautiful Visualization",
     link: "http://www.amazon.com/Beautiful-Visualization-Looking-through-Practice/dp/1449379869",
     description: "Chapter on mapping the senate social graph.",
-    image:"images/beautiful-viz-cover.png"
-  },
-  {
-    title: "Embracing Jupyter Notebooks at O'Reilly",
-    link: "https://beta.oreilly.com/ideas/jupyter-at-oreilly",
-    description: "An overview of how we're using Jupyter and Docker to rethink media.",
-    image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/13247890444_a42166e6e8_o-10e9387fa019a3012ba63822e89a5b17.jpg"
-  },
-  {
-    title: "Docker at O'Reilly",
-    link: "http://sites.oreilly.com/odewahn/docker-at-oreilly/ch01.html",
-    description: "Exloration of how Docker can be used for coding education.",
-    image:""
+    image:"images/beautiful-viz-cover2.jpg"
   }
 ]
