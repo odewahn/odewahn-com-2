@@ -4,9 +4,8 @@ var FeatureItem = require('./feature-item.react.js')
 module.exports = React.createClass({
   render: function() {
     var featureItems = this.props.data.map(function(item){
-      console.log(item);
       return (
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div className="box">
             <FeatureItem data={item}/>
           </div>

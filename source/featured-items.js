@@ -30,31 +30,31 @@ module.exports = [
     image:"images/boston-docker.jpg"
   },
   {
-    title: "Embracing Jupyter Notebooks at O'Reilly",
+    title: "Jupyter at O'Reilly",
     link: "https://beta.oreilly.com/ideas/jupyter-at-oreilly",
     description: "An overview of how we're using Jupyter and Docker to rethink media.",
     image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/13247890444_a42166e6e8_o-10e9387fa019a3012ba63822e89a5b17.jpg"
   },
   {
-    title: "Distributed Development Stack Field Guide",
+    title: "DevOps Field Guide",
     link: "http://sites.oreilly.com/odewahn/dds-field-guide/",
     description: "My notes about the DevOps space became this collaboratively edited guide.",
     image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/cat-piano-05acdd321a202e2b357aed4ffaf83e5e.jpg"
   },
   {
-    title: "Open Data Science Conference Boston, MA",
+    title: "ODSC Boston",
     link: "http://lambdaops.com/jupyter-environments-odsc2015/",
     description: "Kyle Kelley and I gave this presentation at ODSC Boston on Learning Environments with IPython/Jupyter.",
     image:"images/odsc-boston.jpg"
   },
   {
-    title: "Rackspace Cloud Office Hours (interview)",
+    title: "Rackspace Cloud Office Hours",
     link: "https://www.youtube.com/watch?v=ApJTUkLTr74",
     description: "An interview about Carina with @AlanBush and @DrewCoxSA.",
     image:"images/rackspace-interview.png"
   },
   {
-    title: "Patterns of Code as Media",
+    title: "Code as Media",
     link: "http://odewahn.github.io/patterns-of-code-as-media/www/index.html",
     description: "A look at the various ways people create interactive experiences using code.",
     image:"http://odewahn.github.io/patterns-of-code-as-media/www/images/user_framework.png"
