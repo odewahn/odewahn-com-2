@@ -6,7 +6,7 @@ module.exports = React.createClass({
     var featureItems = this.props.data.map(function(item){
       console.log(item);
       return (
-        <div className="col-md-12">
+        <div className="col-md-4">
           <div className="box">
             <FeatureItem data={item}/>
           </div>
