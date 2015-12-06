@@ -23,3 +23,8 @@ module.exports = React.createClass({
   </div>
 </div>
 */
+
+/*
+Example of how to render colors and styles
+https://github.com/callemall/material-ui/blob/master/examples/browserify-gulp-example/src/app/components/main.jsx
+*/
