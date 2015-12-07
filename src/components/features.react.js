@@ -12,9 +12,6 @@ const IconButton = require('material-ui/lib/icon-button');
 
 var FontAwesome = require('react-fontawesome');
 
-
-
-
 /*
 Example of how to render colors and styles:
 
@@ -61,16 +58,21 @@ module.exports = React.createClass({
           </div>
         </div>
         <div className="row">
-            <div className="col-sm-3">
+            <div className="col-sm-2">
               <img className="headshot" src="images/headshot.jpg"/>
             </div>
-            <div className="col-sm-9 bioText">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac velit nec risus iaculis consectetur eget et turpis. In hac habitasse platea dictumst. Aliquam dictum maximus sem vitae convallis. In sapien enim, fringilla tempus est non, hendrerit feugiat dolor. Phasellus ac convallis justo. Vestibulum quis dapibus quam. Sed gravida lectus in suscipit aliquam. Cras id metus ut orci consectetur suscipit eu sed arcu.
-
+            <div className="col-sm-10 bioText">
+              <p>
+                Hi!  I'm Andrew Odewahn, and I'm the CTO of O'Reilly Media.  My interests
+                are in using technology to create new kinds of media, as well as DevOps and Microservices as
+                tools for innovation and organizational change.  Currently, I'm into Docker, Go, and Carina.
+              </p>
               <div className="social">
-                <FontAwesome className='socialIcon' name='github-alt' size='3x' />
+                <a href="https://github.com/odewahn">
+                  <FontAwesome className='socialIcon' name='github-alt' size='2x' />
+                </a>
                 <FontAwesome className='socialIcon' name='twitter' size='3x' />
-                <FontAwesome className='socialIcon' name='envelope' size='3x' />
+                <FontAwesome className='socialIcon' name='envelope' size='2x' />
               </div>
 
 
