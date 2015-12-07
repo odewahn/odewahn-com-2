@@ -14,7 +14,6 @@ module.exports = React.createClass({
     });
     return (
       <div>
-        <h2>{this.props.title}</h2>
         <div className="container-fluid">
           <div className="row">
             {featureItems}

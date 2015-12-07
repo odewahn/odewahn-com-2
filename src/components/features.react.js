@@ -4,11 +4,14 @@ var Featured=require('../../source/featured-items');
 var AppBar = require('material-ui/lib/app-bar');
 
 var ThemeManager = require('material-ui/lib/styles/theme-manager');
-var LightRawTheme = require('material-ui/lib/styles/raw-themes/light-raw-theme');
+var LightRawTheme = require('material-ui/lib/styles/raw-themes/dark-raw-theme');
 var Colors = require('material-ui/lib/styles/colors');
 
 const FontIcon = require('material-ui/lib/font-icon');
 const IconButton = require('material-ui/lib/icon-button');
+
+var FontAwesome = require('react-fontawesome');
+
 
 
 
@@ -41,8 +44,8 @@ module.exports = React.createClass({
   componentWillMount: function() {
     console.log("mounting component")
     var newMuiTheme = ThemeManager.modifyRawThemePalette(this.state.muiTheme, {
-      //primary1Color: Colors.deepOrange500,
-      //canvasColor: Colors.deepOrange500,
+      primary1Color: Colors.grey400,
+      canvasColor: Colors.grey700
     });
     this.setState({muiTheme: newMuiTheme});
   },
@@ -60,17 +63,15 @@ module.exports = React.createClass({
         <div className="row">
             <div className="col-sm-3">
               <img className="headshot" src="images/headshot.jpg"/>
-              <br/>
-                <div className="social">
-                  <i className="fa fa-github socialIcon"></i>
-                  <i className="fa fa-twitter socialIcon"></i>
-                  <i className="fa fa-envelope socialIcon"></i>
-                </div>
             </div>
             <div className="col-sm-9 bioText">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac velit nec risus iaculis consectetur eget et turpis. In hac habitasse platea dictumst. Aliquam dictum maximus sem vitae convallis. In sapien enim, fringilla tempus est non, hendrerit feugiat dolor. Phasellus ac convallis justo. Vestibulum quis dapibus quam. Sed gravida lectus in suscipit aliquam. Cras id metus ut orci consectetur suscipit eu sed arcu.
 
-
+              <div className="social">
+                <FontAwesome className='socialIcon' name='github-alt' size='3x' />
+                <FontAwesome className='socialIcon' name='twitter' size='3x' />
+                <FontAwesome className='socialIcon' name='envelope' size='3x' />
+              </div>
 
 
             </div>

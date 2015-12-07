@@ -12,17 +12,18 @@ const FontIcon = require('material-ui/lib/font-icon');
 
 
 module.exports = React.createClass({
+
   render: function() {
-    /*
-    function getImage(s) {
-      return s || ;
-    }
-    */
+
+    var imgStyle = {
+      width: '200px'
+    };
+
     return (
       <div className="featuredItem">
         <Card>
           <CardMedia overlay={<CardTitle title={this.props.data.title} />}>
-            <img src={this.props.data.image || "http://lorempixel.com/600/337/nature/" }/>
+            <img style={imgStyle} src={this.props.data.image || "http://lorempixel.com/600/337/nature/" }/>
           </CardMedia>
           <CardText>
             {this.props.data.description}
@@ -31,7 +32,7 @@ module.exports = React.createClass({
               <FontIcon className="material-icons">link</FontIcon>
             </a>
           </CardText>
-        </Card>        
+        </Card>
       </div>
     );
   }
