@@ -63,9 +63,9 @@ module.exports = React.createClass({
             </div>
             <div className="col-sm-10 bioText">
               <p>
-                Hi!  I'm Andrew Odewahn, and I'm the CTO of O'Reilly Media.  My interests
-                are in using technology to create new kinds of media, as well as DevOps and Microservices as
-                tools for innovation and organizational change.  Currently, I'm into Docker, Go, and Carina.
+                Hi!  I'm Andrew Odewahn. I'm into developer education, Jupyter, Docker, Go, Carina, and generally
+                lowering the barriers to entry on technology.
+
               </p>
               <div className="social">
                 <a href="https://github.com/odewahn">
@@ -80,7 +80,7 @@ module.exports = React.createClass({
         </div>
         <div className="row">
           <div className="col-md-12">
-              <FeatureBlock title="Speaking and Writing" data={Featured} />
+              <FeatureBlock title="Projects" data={Featured} />
           </div>
         </div>
       </div>
