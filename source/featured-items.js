@@ -20,7 +20,7 @@ module.exports = [
   {
     title: "O'Reilly Atlas",
     link: "https://atlas.oreilly.com/",
-    description: "I'm the founder of the tem that build Atlas, O'Reilly Media's next generation publishing platform.",
+    description: "Founded the team that build Atlas, O'Reilly Media's next generation publishing platform.",
     image:"images/oreilly-atlas.jpg"
   },
   {
@@ -38,13 +38,13 @@ module.exports = [
   {
     title: "DevOps Field Guide",
     link: "http://sites.oreilly.com/odewahn/dds-field-guide/",
-    description: "My notes about the DevOps space became this collaboratively edited guide.",
+    description: "These sticky notes about DevOps became this collaboratively edited guide.",
     image:"https://d17g9nj5ejnv3l.cloudfront.net/720x480/cat-piano-05acdd321a202e2b357aed4ffaf83e5e.jpg"
   },
   {
     title: "ODSC Boston",
     link: "http://lambdaops.com/jupyter-environments-odsc2015/",
-    description: "Kyle Kelley and I gave this presentation at ODSC Boston on Learning Environments with IPython/Jupyter.",
+    description: "Kyle Kelley from Rackspace and I gave this presentation at ODSC Boston on Learning Environments with IPython/Jupyter.",
     image:"images/odsc-boston.jpg"
   },
   {
