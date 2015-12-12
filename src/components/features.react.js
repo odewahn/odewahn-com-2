@@ -1,6 +1,6 @@
 var React=require('react');
 var FeatureBlock = require('./feature-block.react');
-var Featured=require('../../source/featured-items');
+var Featured=require('../../data');
 var AppBar = require('material-ui/lib/app-bar');
 
 var ThemeManager = require('material-ui/lib/styles/theme-manager');
@@ -39,9 +39,8 @@ module.exports = React.createClass({
     };
   },
   componentWillMount: function() {
-    console.log("mounting component")
     var newMuiTheme = ThemeManager.modifyRawThemePalette(this.state.muiTheme, {
-      primary1Color: Colors.grey400,
+      primary1Color: Colors.orangeA700,
       canvasColor: Colors.grey700
     });
     this.setState({muiTheme: newMuiTheme});
