@@ -2,26 +2,26 @@ module.exports = [
   {
     title: "OpenStack Tokyo",
     link: "https://getcarina.com/blog/oreilly-carina/",
-    description: "Our work with Docker containers in code education was featured at the OpenStack Tokyo.",
+    description: "My work with Docker containers in code education was featured at OpenStack Summit Tokyo.",
     image:"images/openstack-tokyo.jpg"
   },
   {
     title: "Harvard Center for Astrophysics",
     link: "http://odewahn.github.io/jupyter-orm-cfa/",
-    description: "A talk I gave to the Harvard-Smithosonian Center for Astrophysics about Jupyter and Docker for radio astronomy.",
+    description: "Here's something about Jupyter and Docker I presented at the Harvard-Smithosonian Center for Astrophysics.",
     image:"images/cfa-sunspot.jpg"
-  },
-  {
-    title: "O'Reilly Atlas",
-    link: "https://atlas.oreilly.com/",
-    description: "I'm the founder of O'Reilly Media's next generation publishing platform.",
-    image:"images/oreilly-atlas.jpg"
   },
   {
     title: "Docker Jumpstart",
     link: "http://odewahn.github.io/docker-jumpstart/",
     description: "A quick into to Docker. (2,600+ GitHub Stars).  It also got to #1 on Hackernews, which makes me absurdly pleased!",
     image: "images/docker-jumpstart.png"
+  },
+  {
+    title: "O'Reilly Atlas",
+    link: "https://atlas.oreilly.com/",
+    description: "I'm the founder of the tem that build Atlas, O'Reilly Media's next generation publishing platform.",
+    image:"images/oreilly-atlas.jpg"
   },
   {
     title: "Introduction to Carina",
