@@ -1,10 +1,9 @@
 (function() {
 
   var React = require('react')
+  var ReactDOM = require('react-dom')
   var Features = require('./components/features.react')
 
-  //Needed for React Developer Tools
-  window.React = React;
 
   var injectTapEventPlugin = require("react-tap-event-plugin");
 
@@ -14,6 +13,6 @@
   //https://github.com/zilverline/react-tap-event-plugin
   injectTapEventPlugin();
 
-  React.render(<Features />, document.getElementById('app'));
+  ReactDOM.render(<Features />, document.getElementById('app'));
 
 })();

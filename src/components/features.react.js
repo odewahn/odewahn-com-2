@@ -57,24 +57,25 @@ module.exports = React.createClass({
           </div>
         </div>
         <div className="row">
-            <div className="col-sm-2">
+            <div className="col-sm-3">
               <img className="headshot" src="images/headshot.jpg"/>
             </div>
-            <div className="col-sm-10 bioText">
+            <div className="col-sm-9 bioText">
               <p>
-                Hi!  I'm Andrew Odewahn. I'm into developer education, Jupyter, Docker, Go, Carina, and generally
-                lowering the barriers to entry on technology.
+                Hi!  I'm Andrew Odewahn. I'm the current Entrepreneur in Residence and former CTO at <a href="oreilly.com">O'Reilly Media</a>. I'm into developer education, Jupyter, Docker, Go, Carina, and generally lowering the barriers to entry on technology.
 
               </p>
               <div className="social">
                 <a href="https://github.com/odewahn">
                   <FontAwesome className='socialIcon' name='github-alt' size='2x' />
                 </a>
-                <FontAwesome className='socialIcon' name='twitter' size='3x' />
-                <FontAwesome className='socialIcon' name='envelope' size='2x' />
+                <a href="https://twitter.com/odewahn">
+                  <FontAwesome className='socialIcon' name='twitter' size='3x' />
+                </a>
+                <a href="mailto:andrew@odewahn.com">
+                  <FontAwesome className='socialIcon' name='envelope' size='2x' />
+                </a>
               </div>
-
-
             </div>
         </div>
         <div className="row">
